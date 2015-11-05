@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(request, response) {
-	response.send("This is an example of running Node as a backend");
+	response.send("We're using Node.js to send this response");
 });
 
 app.listen(3000, function() {
